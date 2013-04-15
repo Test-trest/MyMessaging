@@ -1,4 +1,4 @@
-function buttonPress(element)
+function buttonPress(element,user_out,user_in)
 {
  	var elements=document.getElementsByClassName('userPrint');
 	for(var i=0, length=elements.length; i<length; i++){
@@ -6,6 +6,12 @@ function buttonPress(element)
 		
 	}	
 element.style.background = '#787878';
+
+        //$.post('chat.php',{user_id:"user_id"},function(data){
+          //           alert(data);
+           //      });
+           
+           alert(user_in+" "+user_out);
 }
 
 
@@ -22,6 +28,7 @@ function loadService()
    $("#main").css("height", $(this).height()-100-54-1);
    // délka users
    
+
 }
 
 function loadIndex()
