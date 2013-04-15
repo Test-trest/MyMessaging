@@ -25,7 +25,9 @@
                 $_SESSION['username'] = $user['username'];
                 $_SESSION['user_firstname'] = $user['firstname'];
                 $_SESSION['user_lastname'] = $user['lastname']; 
-                setcookie('login', $user['id'], time()+86400);
+                
+                setcookie('login',$user['id'], time()+86400);
+                
                 header('Location:service.php');     
             }
             else

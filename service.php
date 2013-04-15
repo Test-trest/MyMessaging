@@ -22,7 +22,7 @@
     }
     
     $q = "SELECT * FROM users";
-    $result = mysql_query($q);
+    $resultUsers = mysql_query($q);
     
    
 ?>
@@ -36,7 +36,7 @@
   		<meta name="description" content="    " />
   		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   		<link media="screen" href="css/styleService.css" type="text/css" rel="stylesheet"/>
-  		<script src="js/jquery-1.7.2.min.js"></script><script src="js/jquery-1.7.2.min.js"></script>
+  		<script src="js/jquery-1.7.2.min.js"></script>
 
 </head>
 
@@ -59,7 +59,7 @@
         <div id="main">
         	<div id="users">
         		<div id="wrap">
-        		<?php require 'printoutUsers.php'?>
+        		<?php require_once 'printoutUsers.php'?>
         		</div>
         	</div>
 
