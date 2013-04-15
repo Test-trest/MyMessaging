@@ -1,0 +1,181 @@
+body{
+	margin:20px auto;
+	padding:0;
+	width:960px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+h1{
+    float:left;
+	margin-left:20px;
+}
+#contProd{
+    float: left;
+    clear: both;
+    margin-top:15px;
+    margin-left:20px;
+}
+#contProd .item{
+	margin-bottom:15px;
+	height:48px;
+	clear:both;
+}
+#contProd .item p{
+	float:left;
+	margin-top:0;
+}
+.display{
+	display:none;
+}
+#contProd .item p span{
+	font-weight:bold;
+}
+#contProd .item a{
+	float:left;
+	border:0;
+	background-image:url('../../img/delete.png');
+	background-repeat:no-repeat;
+	height:48px;
+	width:24px;
+	margin:0;
+	margin-top:13px;
+	margin-left:10px;
+}
+#contProd .item form input:hover{
+	cursor:pointer;
+}
+label,textarea,input{
+	float:left;
+	clear:both;
+	margin-bottom:8px;
+	line-height:22px;
+	height:22px;
+}
+.label{
+	height:28px;
+}
+#label .lblKlient{
+	margin-bottom:14px;
+}
+.labelCon{
+        margin-bottom: 92px;
+}
+#logFrm{
+	float:left;
+	clear:both;
+}
+textarea{
+	float:left;
+	clear:both;
+	margin-bottom:8px;
+	line-height:16px;
+}
+.obsah{
+	float:left;
+	width:600px;
+	margin-bottom:8px;
+	line-height:22px;
+	height:22px;
+}
+#main .form{
+	float:left;
+  clear:both;
+}
+#main .form div{
+    float:left;
+}
+#main .error{
+    clear:both;
+    background-color: #ff3333;
+    border: 1px solid #ff0000;
+    text-align: center;
+    width:500px;
+    margin: 25px auto;
+}
+#main .zpet{
+	float:left;
+	clear:both;
+	margin-left:20px;
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+#main .zpet:hover{
+	text-decoration:underline;
+}
+#cas{
+	margin-left:20px;
+}
+#hlText{
+	margin-top:32px;
+}
+#main{
+	float:left;
+	clear:both;
+	margin-top:20px;
+	width:960px;
+	background-color:#808080;
+	padding-bottom:30px;
+}
+#content{
+	float:left;
+        clear:both;
+	margin-left:20px;
+}
+#content a{
+	float:left;
+	margin-bottom:8px;
+	clear:both;
+	text-decoration:none;
+	color:#000000;
+	font-size:22px;
+}
+#content a:hover{
+	text-decoration:underline;
+}
+#label{
+	float:left;
+	padding-right:50px;
+	margin-left:20px;
+}
+#text{
+	float:left;
+}
+#logOut{
+    float:right;
+    margin-top: 27px;
+}
+#select{
+	width:200px;
+	float:left;
+	margin-left: 36px;
+}
+#logOut div{
+    cursor:pointer;
+}
+#text select{
+	float:left;
+	margin-bottom:8px;
+	height:28px;
+	width:80px;
+}
+.contact{
+    width: 300px;
+    height: 100px;
+}
+.newBut{
+  clear:both;
+  float:left;  
+  height:32px;
+  text-decoration:underline;
+  cursor:pointer;   
+}
+.submit{
+	height:32px;
+}
+.bigImg{
+	display:none;
+}
+.file{
+	height:28px;
+	width:600px;
+}

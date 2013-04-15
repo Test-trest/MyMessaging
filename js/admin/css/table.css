@@ -1,0 +1,46 @@
+#table{
+  float: left;
+  right: 10px;
+  position: fixed;
+  bottom:40px;
+  width: 680px;  
+}
+#table tr td a{
+  color: #009BD9;
+  float: left;
+  font-family: "Arial";
+  font-size: 15px;
+  font-weight: 700;                    
+}
+#table tbody tr td{
+  padding-right:10px;
+  padding-bottom:10px;                  
+}
+.open{
+  background-color:#67BD4B; 
+  height: 18px;
+  width: 28px;
+  margin:auto;   
+}
+.close{
+  background-color:#BE0000;
+  height: 18px;
+  width: 28px;
+  margin:0 auto;    
+}
+#date tbody tr td .close{
+  background-color:#BE0000;
+  height: 18px;
+  width: 28px;
+  margin:0 auto;                   
+}
+#date tbody tr td .open{
+  background-color:#67BD4B; 
+  height: 18px;
+  width: 28px;
+  margin:auto;                
+}
+#table tr td a:hover{
+  color: #67BD4B; 
+  cursor:pointer;              
+}
